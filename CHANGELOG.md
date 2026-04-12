@@ -32,6 +32,9 @@ All notable changes to this project will be documented in this file.
   since I mostly test intraday setups. Change it back if you prefer daily.
 - I also bumped the default `n_splits` in `walk_forward_backtest_strategy` from 5 to 3 —
   less granular but runs noticeably faster on longer date ranges, which suits my workflow.
+- Bumped default `train_ratio` in `walk_forward_backtest_strategy` from 0.7 to 0.8 —
+  I prefer giving the model more training data per fold, especially on shorter histories
+  where 70% train leaves too few bars in the test window to be meaningful.
 
 ---
 
@@ -54,9 +57,4 @@ All notable changes to this project will be documented in this file.
   - Zero-config for users (optional env-based configuration)
 - **Technical Indicators (pure Python, zero deps)**:
   - ATR (Average True Range)
-  - Supertrend
-  - Donchian Channel
-
-### Changed
-- `compare_strategies` now fetches OHLCV once and runs all strategies on cached data (5x faster)
-- Yahoo Finance data fetching uses direct 
+  - Supe
