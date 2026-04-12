@@ -30,6 +30,8 @@ All notable changes to this project will be documented in this file.
 ### Notes (personal)
 - I changed the default `interval` in `backtest_strategy` from `"1d"` to `"1h"` in my fork
   since I mostly test intraday setups. Change it back if you prefer daily.
+- I also bumped the default `n_splits` in `walk_forward_backtest_strategy` from 5 to 3 —
+  less granular but runs noticeably faster on longer date ranges, which suits my workflow.
 
 ---
 
@@ -57,9 +59,4 @@ All notable changes to this project will be documented in this file.
 
 ### Changed
 - `compare_strategies` now fetches OHLCV once and runs all strategies on cached data (5x faster)
-- Yahoo Finance data fetching uses direct connection first, proxy fallback only on failure
-
-## [0.5.0] - 2026-03-29
-
-### Added
-- **Real-Time Market Sentiment (Agent-Reach Integration)**: Integrated
+- Yahoo Finance data fetching uses direct 
