@@ -35,6 +35,8 @@ All notable changes to this project will be documented in this file.
 - Bumped default `train_ratio` in `walk_forward_backtest_strategy` from 0.7 to 0.8 —
   I prefer giving the model more training data per fold, especially on shorter histories
   where 70% train leaves too few bars in the test window to be meaningful.
+- Bumped default `initial_capital` from 10000 to 5000 — better reflects my actual
+  testing budget and makes the equity curve numbers easier to reason about at a glance.
 
 ---
 
@@ -52,9 +54,4 @@ All notable changes to this project will be documented in this file.
   - Global market snapshot with 14 instruments across 4 asset classes
   - Turkish stocks supported (THYAO.IS, SASA.IS...)
 - **Webshare Rotating Proxy Manager**:
-  - 250 sticky sessions for rate-limit bypass
-  - Direct-first + proxy-fallback architecture for reliability
-  - Zero-config for users (optional env-based configuration)
-- **Technical Indicators (pure Python, zero deps)**:
-  - ATR (Average True Range)
-  - Supe
+  - 250 sti
