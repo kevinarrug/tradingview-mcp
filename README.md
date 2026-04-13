@@ -111,7 +111,10 @@ For quick reference, here are the symbols I track most often:
 - `BINANCE:BTCUSDT` — Bitcoin
 - `BINANCE:ETHUSDT` — Ethereum
 - `BINANCE:SOLUSDT` — Solana
+- `BINANCE:BNBUSDT` — BNB
+- `BINANCE:ADAUSDT` — Cardano
 - `NASDAQ:NVDA` — NVIDIA
+- `NASDAQ:TSLA` — Tesla
 
 ## Changelog
 
