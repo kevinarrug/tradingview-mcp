@@ -104,6 +104,15 @@ Add to `.cursor/mcp.json` in your project root:
 
 > **Note:** I primarily use `get_technical_analysis` and `get_multiple_quotes` with crypto symbols (e.g. `BINANCE:BTCUSDT`). If you're doing the same, make sure to prefix symbols with the exchange name.
 
+## Symbols I Use
+
+For quick reference, here are the symbols I track most often:
+
+- `BINANCE:BTCUSDT` — Bitcoin
+- `BINANCE:ETHUSDT` — Ethereum
+- `BINANCE:SOLUSDT` — Solana
+- `NASDAQ:NVDA` — NVIDIA
+
 ## Changelog
 
 See [CHANGELOG.md](CHANGELOG.md) for release history.
