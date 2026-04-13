@@ -102,6 +102,8 @@ Add to `.cursor/mcp.json` in your project root:
 | `get_screener` | Screen markets by technical conditions |
 | `get_multiple_quotes` | Fetch quotes for multiple symbols at once |
 
+> **Note:** I primarily use `get_technical_analysis` and `get_multiple_quotes` with crypto symbols (e.g. `BINANCE:BTCUSDT`). If you're doing the same, make sure to prefix symbols with the exchange name.
+
 ## Changelog
 
 See [CHANGELOG.md](CHANGELOG.md) for release history.
