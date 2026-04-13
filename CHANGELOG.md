@@ -42,16 +42,11 @@ All notable changes to this project will be documented in this file.
 - Bumped default `commission` from 0.001 (0.1%) to 0.002 (0.2%) — more realistic for
   the crypto exchanges I actually use; the upstream default felt optimistically low and
   was making strategies look better than they perform in practice.
+- Bumped default `slippage` from 0.0 to 0.001 (0.1%) — real fills on thinly traded
+  crypto pairs rarely happen at the exact signal price; even a small slippage assumption
+  keeps backtest results more honest. Combined with the 0.2% commission this gives a
+  round-trip cost of ~0.6%, which matches my live experience more closely.
 - **Heads up on 1h data availability**: TradingView's free tier limits how far back
   hourly data goes (roughly 1–2 years depending on the symbol). If your `start_date`
   is too early the fetcher silently returns fewer bars than expected, which can skew
-  walk-forward results. Always sanity-check `total_bars` in the output when using `1h`.
-
----
-
-## [0.6.0] - 2026-03-29
-
-### Added
-- **Backtesting Engine v2** (`backtest_strategy`, `compare_strategies`):
-  - 6 trading strategies: RSI, Bollinger Band, MACD, EMA Cross, **Supertrend** (🔥 trending 2025), **Donchian Channel** (Turtle Trader classic)
-  - Institutional-
+  walk-forward result
