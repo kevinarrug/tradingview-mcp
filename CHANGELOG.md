@@ -39,6 +39,9 @@ All notable changes to this project will be documented in this file.
   testing budget and makes the equity curve numbers easier to reason about at a glance.
 - Bumped default `recent_trades` count from 5 to 10 — 5 trades is often not enough
   context when reviewing intraday 1h results; 10 gives a better feel for recent behavior.
+- Bumped default `commission` from 0.001 (0.1%) to 0.002 (0.2%) — more realistic for
+  the crypto exchanges I actually use; the upstream default felt optimistically low and
+  was making strategies look better than they perform in practice.
 
 ---
 
@@ -50,7 +53,4 @@ All notable changes to this project will be documented in this file.
   - Institutional-grade metrics: Sharpe Ratio, Calmar Ratio, Expectancy, Profit Factor, Max Drawdown
   - Transaction cost simulation: per-trade commission + slippage
   - Buy-and-hold benchmark comparison
-  - Single OHLCV fetch for `compare_strategies` (all 6 strategies in ~0.3s)
-- **Yahoo Finance Integration** (`yahoo_price`, `market_snapshot`):
-  - Real-time quotes for stocks, crypto, ETFs, indices (S&P500, NASDAQ, VIX), FX
-  
+  - Single OHLCV fetch for `compare_strategies` (all 6
