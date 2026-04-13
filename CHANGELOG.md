@@ -37,6 +37,8 @@ All notable changes to this project will be documented in this file.
   where 70% train leaves too few bars in the test window to be meaningful.
 - Bumped default `initial_capital` from 10000 to 5000 — better reflects my actual
   testing budget and makes the equity curve numbers easier to reason about at a glance.
+- Bumped default `recent_trades` count from 5 to 10 — 5 trades is often not enough
+  context when reviewing intraday 1h results; 10 gives a better feel for recent behavior.
 
 ---
 
@@ -51,7 +53,4 @@ All notable changes to this project will be documented in this file.
   - Single OHLCV fetch for `compare_strategies` (all 6 strategies in ~0.3s)
 - **Yahoo Finance Integration** (`yahoo_price`, `market_snapshot`):
   - Real-time quotes for stocks, crypto, ETFs, indices (S&P500, NASDAQ, VIX), FX
-  - Global market snapshot with 14 instruments across 4 asset classes
-  - Turkish stocks supported (THYAO.IS, SASA.IS...)
-- **Webshare Rotating Proxy Manager**:
-  - 250 sti
+  
