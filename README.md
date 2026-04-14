@@ -113,8 +113,10 @@ For quick reference, here are the symbols I track most often:
 - `BINANCE:SOLUSDT` — Solana
 - `BINANCE:BNBUSDT` — BNB
 - `BINANCE:ADAUSDT` — Cardano
+- `BINANCE:DOTUSDT` — Polkadot
 - `NASDAQ:NVDA` — NVIDIA
 - `NASDAQ:TSLA` — Tesla
+- `NASDAQ:MSFT` — Microsoft
 
 ## Changelog
 
