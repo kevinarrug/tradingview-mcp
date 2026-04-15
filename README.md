@@ -116,10 +116,12 @@ For quick reference, here are the symbols I track most often:
 - `BINANCE:DOTUSDT` — Polkadot
 - `BINANCE:XRPUSDT` — XRP
 - `BINANCE:LINKUSDT` — Chainlink
+- `BINANCE:AVAXUSDT` — Avalanche
 - `NASDAQ:NVDA` — NVIDIA
 - `NASDAQ:TSLA` — Tesla
 - `NASDAQ:MSFT` — Microsoft
 - `NASDAQ:AAPL` — Apple
+- `NASDAQ:AMZN` — Amazon
 
 ## Changelog
 
@@ -127,4 +129,4 @@ See [CHANGELOG.md](CHANGELOG.md) for release history.
 
 ## Contributing
 
-Pull requests are welcome. For major changes, please open an 
+Pull requests are welcome. F
