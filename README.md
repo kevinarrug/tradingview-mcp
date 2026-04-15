@@ -114,9 +114,11 @@ For quick reference, here are the symbols I track most often:
 - `BINANCE:BNBUSDT` — BNB
 - `BINANCE:ADAUSDT` — Cardano
 - `BINANCE:DOTUSDT` — Polkadot
+- `BINANCE:XRPUSDT` — XRP
 - `NASDAQ:NVDA` — NVIDIA
 - `NASDAQ:TSLA` — Tesla
 - `NASDAQ:MSFT` — Microsoft
+- `NASDAQ:AAPL` — Apple
 
 ## Changelog
 
