@@ -45,5 +45,5 @@ All notable changes to this project will be documented in this file.
 - Bumped default `slippage` from 0.0 to 0.001 (0.1%) — real fills on thinly traded
   crypto pairs rarely happen at the exact signal price; even a small slippage assumption
   keeps backtest results more honest. Combined with the 0.2% commission this gives a
-  round-trip cost of ~0.6% per trade, which aligns with what I actually observe on
-  Binance and Kraken for mid-cap pairs with moderate liquidity.
+  round-trip cost of ~0.6% per trade, which aligns with what I actually see on Binance
+  and Kraken for mid-cap pairs with moderate liquidity.
