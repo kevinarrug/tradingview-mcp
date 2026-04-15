@@ -115,6 +115,7 @@ For quick reference, here are the symbols I track most often:
 - `BINANCE:ADAUSDT` — Cardano
 - `BINANCE:DOTUSDT` — Polkadot
 - `BINANCE:XRPUSDT` — XRP
+- `BINANCE:LINKUSDT` — Chainlink
 - `NASDAQ:NVDA` — NVIDIA
 - `NASDAQ:TSLA` — Tesla
 - `NASDAQ:MSFT` — Microsoft
@@ -126,8 +127,4 @@ See [CHANGELOG.md](CHANGELOG.md) for release history.
 
 ## Contributing
 
-Pull requests are welcome. For major changes, please open an issue first.
-
-## License
-
-MIT
+Pull requests are welcome. For major changes, please open an 
