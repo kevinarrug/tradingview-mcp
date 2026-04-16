@@ -117,6 +117,8 @@ For quick reference, here are the symbols I track most often:
 - `BINANCE:XRPUSDT` — XRP
 - `BINANCE:LINKUSDT` — Chainlink
 - `BINANCE:AVAXUSDT` — Avalanche
+- `BINANCE:OPUSDT` — Optimism
+- `BINANCE:ARBUSDT` — Arbitrum
 - `NASDAQ:NVDA` — NVIDIA
 - `NASDAQ:TSLA` — Tesla
 - `NASDAQ:MSFT` — Microsoft
@@ -125,8 +127,4 @@ For quick reference, here are the symbols I track most often:
 
 ## Changelog
 
-See [CHANGELOG.md](CHANGELOG.md) for release history.
-
-## Contributing
-
-Pull requests are welcome. F
+See [CHANGELOG.md](CHANGELOG.md) for relea
